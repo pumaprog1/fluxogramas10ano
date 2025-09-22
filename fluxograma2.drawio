@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.3">
+  <diagram name="Página-1" id="5psARQ8sXKjtJTM6Yz9w">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mOS7eoNON6mSWtXikIi1-11" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-11" target="mOS7eoNON6mSWtXikIi1-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="130" as="sourcePoint" />
+            <mxPoint x="430" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-14" value="ler , Kmi. Kmf, Gasolina gasta" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-4;" vertex="1" parent="1">
+          <mxGeometry x="370" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-17" value="Fim" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-26" target="mOS7eoNON6mSWtXikIi1-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="560" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-24" target="mOS7eoNON6mSWtXikIi1-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-14" target="mOS7eoNON6mSWtXikIi1-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="370" as="sourcePoint" />
+            <mxPoint x="430" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-24" value="D = (Kmi - Kmf)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-26" value="Litros gastos =&amp;nbsp;&lt;div&gt;100 x gasolina gasta&lt;/div&gt;&lt;div&gt;&amp;nbsp;\ D&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-17" target="mOS7eoNON6mSWtXikIi1-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="602.9411764705883" y="570" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-29" target="mOS7eoNON6mSWtXikIi1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-29" value="Gasolina gasta =100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mOS7eoNON6mSWtXikIi1-32" value="escrever litros gastos" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
