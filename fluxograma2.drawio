@@ -4,59 +4,84 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mOS7eoNON6mSWtXikIi1-11" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="370" y="40" width="120" height="80" as="geometry" />
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="354" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-11" target="mOS7eoNON6mSWtXikIi1-14">
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-2" value="Fim" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="354" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-3" value="ler nota" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iWMuqHvY_wEAiCFhSCZj-1" target="iWMuqHvY_wEAiCFhSCZj-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="130" as="sourcePoint" />
-            <mxPoint x="430" y="170" as="targetPoint" />
+            <mxPoint x="420" y="350" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-14" value="ler , Kmi. Kmf, Gasolina gasta" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-4;" vertex="1" parent="1">
-          <mxGeometry x="370" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-17" value="Fim" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="370" y="670" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-26" target="mOS7eoNON6mSWtXikIi1-32">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="560" as="sourcePoint" />
-            <mxPoint x="430" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-24" target="mOS7eoNON6mSWtXikIi1-26">
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iWMuqHvY_wEAiCFhSCZj-3" target="iWMuqHvY_wEAiCFhSCZj-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="470" as="sourcePoint" />
-            <mxPoint x="430" y="500" as="targetPoint" />
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="414" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-14" target="mOS7eoNON6mSWtXikIi1-24">
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-6" value="nota&amp;gt;9.5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iWMuqHvY_wEAiCFhSCZj-6" target="iWMuqHvY_wEAiCFhSCZj-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="370" as="sourcePoint" />
-            <mxPoint x="430" y="320" as="targetPoint" />
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="540" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="360" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-24" value="D = (Kmi - Kmf)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-19" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iWMuqHvY_wEAiCFhSCZj-7">
+          <mxGeometry x="0.012" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-26" value="Litros gastos =&amp;nbsp;&lt;div&gt;100 x gasolina gasta&lt;/div&gt;&lt;div&gt;&amp;nbsp;\ D&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-8" value="escrever Passou" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-17" target="mOS7eoNON6mSWtXikIi1-32">
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-9" value="Escrever Reprovado" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iWMuqHvY_wEAiCFhSCZj-6" target="iWMuqHvY_wEAiCFhSCZj-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="602.9411764705883" y="570" as="sourcePoint" />
-            <mxPoint x="440" y="680" as="targetPoint" />
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="460" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mOS7eoNON6mSWtXikIi1-29" target="mOS7eoNON6mSWtXikIi1-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-18" value="Nâo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iWMuqHvY_wEAiCFhSCZj-10">
+          <mxGeometry x="-0.0956" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-29" value="Gasolina gasta =100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iWMuqHvY_wEAiCFhSCZj-15" target="iWMuqHvY_wEAiCFhSCZj-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="630" as="sourcePoint" />
+            <mxPoint x="490" y="580" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mOS7eoNON6mSWtXikIi1-32" value="escrever litros gastos" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="iWMuqHvY_wEAiCFhSCZj-8" target="iWMuqHvY_wEAiCFhSCZj-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="560" as="sourcePoint" />
+            <mxPoint x="560" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.45;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iWMuqHvY_wEAiCFhSCZj-9" target="iWMuqHvY_wEAiCFhSCZj-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419" y="570" as="sourcePoint" />
+            <mxPoint x="416" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iWMuqHvY_wEAiCFhSCZj-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="404" y="600" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
