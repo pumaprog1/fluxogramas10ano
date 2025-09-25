@@ -1,0 +1,191 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+  <diagram name="Página-1" id="kLxBu77cHOf3uyVMnT4c">
+    <mxGraphModel dx="2495" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LammA5gJNb1FdA8V-mTG-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="20" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-2" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="710" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-3" value="Ler Idade" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-1" target="LammA5gJNb1FdA8V-mTG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="200" as="sourcePoint" />
+            <mxPoint x="530" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-5" value="idade&amp;lt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-3" target="LammA5gJNb1FdA8V-mTG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="180" as="sourcePoint" />
+            <mxPoint x="420" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-5" target="LammA5gJNb1FdA8V-mTG-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="310" as="sourcePoint" />
+            <mxPoint x="640" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-8" value="sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-7">
+          <mxGeometry x="-0.5112" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-9" value="Escrever &quot;Meteste água.Aguarda processo de secagem&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="720" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-9" target="LammA5gJNb1FdA8V-mTG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="720" as="sourcePoint" />
+            <mxPoint x="550" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-5" target="LammA5gJNb1FdA8V-mTG-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="414" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-13" value="não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-12">
+          <mxGeometry x="-0.45" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-14" value="18&amp;gt;idade" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-14" target="LammA5gJNb1FdA8V-mTG-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="414" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-18" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-15">
+          <mxGeometry x="-0.3143" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-16" value="Escrever &quot;Puto&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="348.5" y="510" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-16" target="LammA5gJNb1FdA8V-mTG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="470" as="sourcePoint" />
+            <mxPoint x="420" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-14" target="LammA5gJNb1FdA8V-mTG-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="430" as="sourcePoint" />
+            <mxPoint x="190" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-20" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-19">
+          <mxGeometry x="-0.3711" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-28" value="idade&amp;lt;66" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-28" target="LammA5gJNb1FdA8V-mTG-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="630" as="sourcePoint" />
+            <mxPoint x="190" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-30" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-29">
+          <mxGeometry x="-0.0857" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-31" value="Escrever &quot;Adulto&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="124.5" y="585" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-28" target="LammA5gJNb1FdA8V-mTG-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="530" as="sourcePoint" />
+            <mxPoint x="-20" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-44" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-32">
+          <mxGeometry x="0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-33" value="idade&amp;lt;150" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-34" value="Escrever &quot;Velhinho&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-65.5" y="620" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-33" target="LammA5gJNb1FdA8V-mTG-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="610" as="sourcePoint" />
+            <mxPoint x="30" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-37" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-35">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="550" as="sourcePoint" />
+            <mxPoint x="-160" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-45" value="não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LammA5gJNb1FdA8V-mTG-38">
+          <mxGeometry x="-0.3" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-39" value="Escrever &quot;Dinossauro&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="510" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-40" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="LammA5gJNb1FdA8V-mTG-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="750" as="sourcePoint" />
+            <mxPoint x="-170" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-220" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="LammA5gJNb1FdA8V-mTG-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="750" as="sourcePoint" />
+            <mxPoint x="190" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LammA5gJNb1FdA8V-mTG-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="LammA5gJNb1FdA8V-mTG-34" target="LammA5gJNb1FdA8V-mTG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="760" as="sourcePoint" />
+            <mxPoint y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
